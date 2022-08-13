@@ -1,0 +1,75 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 32, 32) ;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    margin: 0;
+
+
+}
+
+h1 {
+    font-size: 2rem;
+   line-height: 1.3em;
+}
+
+p {
+    margin-bottom: 1.6em;
+
+}
+
+.conteiner{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.hearder{
+    background: rgb(98, 20, 170);
+    color: bisque;
+    padding: 2rem 0;
+}
+
+.hearder a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #CCC;
+}
+
+.footer {
+    background: rgb(231, 150, 0);
+    padding: 4rem 0;
+    text-align: center;
+}
